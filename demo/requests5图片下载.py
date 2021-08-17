@@ -81,7 +81,7 @@ def getDataList(count, times):
                     for subItemIndex in range(int(item['count'])):
                         src = item['imgSrc']
                         # 拿到不同的imgUrl
-                        src = src[:-10] + str(subItemIndex + 1) + src[-9:]
+                        src = src[:-10] + str(subItemIndex + 1) + '.jpg'
                         item['srcList'].append(src)
 
                         # 下载图片
@@ -91,10 +91,10 @@ def getDataList(count, times):
 
                         with open('images/' + item['dirName'] + imgName, mode='wb') as f:
                             f.write(imgResp.content)
-                        
+
                         print('下载成功：' + item['dirName'] + imgName)
                         time.sleep(times)
-                        
+
                     # 间隔时间
                     time.sleep(times)
                 else:
@@ -108,12 +108,12 @@ def getDataList(count, times):
     print(dataList)
 
     # 存储到本地数据
-    with open('图片数据.txt', mode='w', encoding="utf-8") as f:
+    with open('图片数据图片.txt', mode='w', encoding="utf-8") as f:
         f.write(str(dataList))
 
     mainResp.close()
 
 
-getDataList(1, 1)
+getDataList(10, 3)
 print("*" * 30)
 print('finished!!!')
