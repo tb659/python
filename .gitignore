@@ -19,9 +19,19 @@ selenium-debug.log
 *.sln
 *.local
 
-package-lock.json
-yarn.lock
+# PyCharm IDE
+.idea/
+*.iml
 
-.history
-.svn
-images
+# Python 运行时和虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+venv/
+env/
+.env
+
+# 系统文件
+.DS_Store
+Thumbs.db
