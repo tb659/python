@@ -257,7 +257,6 @@ def format_name(first, last):
 # print(f"格式化姓名: {format_name("ke", "le")}") # 1、__init__中， __all__rugo定义，且不导出format_name 这里获取不到会报错
 
 #  2、引入包里的模块 模块内部的导出根据__all__来控制
-from my_package.calculator import *
 
 
 # print(f"13 × 4 = {multiply(13, 4)}")  # multiply 这里获取不到会报错
@@ -307,7 +306,6 @@ def module_cache_example():
     print(python_modules)
 
     # 再次导入不会重新执行模块代码
-    import math  # 这不会重新打印模块中的内容
     print("再次导入math模块（无额外输出）")
 
 
