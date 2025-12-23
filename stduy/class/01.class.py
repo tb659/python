@@ -22,7 +22,7 @@
 #
 #
 # pass  # 占位
-#
+#   
 # # 创建对象（实例化对象）
 # car1 = Car()
 # print(car1)  # <__main__.Car object at 0x0000020EA5EB0E80> （对象的内存地址）
