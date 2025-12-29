@@ -2,7 +2,7 @@
 
 """
     模式      功能描述          是否创建新文件                     注意事项
-    r        只读(默认)        否(文件不存在报错)                 只能读，不能写 
+    r        只读(默认)        否(文件不存在报错)                  只能读，不能写 
     w        只写             是(文件不存在创建，存在则覆盖内容)     只能写，不能读
     a        追加             是(文件不存在创建，存在则写在末尾)     只能写，不能读
     r+       读写             否(文件不存在报错)                  可同时读写，不覆盖原有内容
@@ -14,7 +14,7 @@
 
 1、FileNotFoundError:        文件不存在(检查路径是否正确，或用w/a模式创建)。
 2、io.Unsupportedoperation:  读写权限不匹配(比如 r模式下尝试写,改模式为r+)。
-3、UnicodeDecodeError:       编码不匹配I指定正确的 encoding,如utf-8)。
+3、UnicodeDecodeError:       编码不匹配指定正确的 encoding,如utf-8)。
 
 
 1.文件操作流程:
@@ -40,10 +40,10 @@ print("*" * 50)
 # 使用with语句自动管理文件资源
 with open("text.txt", "r", encoding="utf-8") as file:
     # 打印文件对象的属性信息
-    print("file.name =>", file.name)  # 文件名
-    print("file.encoding =>", file.encoding)  # 文件编码
-    print("file.mode =>", file.mode)  # 文件访问模式
-    print("file.closed =>", file.closed)  # 文件是否已关闭
+    print("03.file.name =>", file.name)  # 文件名
+    print("03.file.encoding =>", file.encoding)  # 文件编码
+    print("03.file.mode =>", file.mode)  # 文件访问模式
+    print("03.file.closed =>", file.closed)  # 文件是否已关闭
 
     # 读取前4个字符
     print(file.read(4))

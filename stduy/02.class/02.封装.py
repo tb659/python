@@ -12,7 +12,7 @@
 """
 
 # 需求:定义银行账户类，把“账户名”“余额”这些属性和“查询余额”方法打包在类里
-# class BankAccount:
+# 02.class BankAccount:
 #     """银行账户类"""
 #
 #     def __init__(self, name, balance):
@@ -34,7 +34,7 @@
 print("*" * 50)
 
 # 需求:定义银行账户类，把“账户名”“余额”这些属性和“查询余额”方法打包在类里, 不能直接修改余额
-# class BankAccount:
+# 02.class BankAccount:
 #     """银行账户类"""
 #
 #     def __init__(self, name, balance):

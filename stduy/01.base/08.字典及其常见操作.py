@@ -17,7 +17,7 @@ data = {
     'height': 180
 }
 # 打印字典data的类型
-print("打印字典data的类型", type(data))  # <class 'dict'>
+print("打印字典data的类型", type(data))  # <02.class 'dict'>
 # 打印整个字典data
 print("打印整个字典data", data)  # {'name': 'Tom', 'age': 18, 'height': 180}
 # 通过键'name'访问对应的值

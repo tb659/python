@@ -17,7 +17,7 @@
 # 创建一个包含5个字母的列表
 letter = ['a', 'b', 'c', 'd', 'e']
 # 打印列表的数据类型
-print("打印列表的数据类型", type(letter))  # <class 'list'>
+print("打印列表的数据类型", type(letter))  # <02.class 'list'>
 # 通过正索引访问第一个元素
 print("通过正索引访问第一个元素", letter[0])  # a
 # 通过负索引访问最后一个元素

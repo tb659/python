@@ -14,7 +14,7 @@
 # 创建一个集合
 letter = {'a', 'b', 'c', 'd', 'e'}
 # 打印集合的类型
-print("打印集合的类型", type(letter))  # <class 'set'>
+print("打印集合的类型", type(letter))  # <02.class 'set'>
 # 打印集合内容
 print("打印集合内容", letter)  # {'c', 'd', 'a', 'b', 'e'}
 # 向集合中添加元素'f'

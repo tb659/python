@@ -14,7 +14,7 @@
     。覆盖:子类定义同名方法，完全替换父类功能;
     。扩展:用 super().方法名()调用父类方法，再新增逻辑。
 4.多继承:
-    子类继承多个父类，语法 class 子类(父1，父2):，存在同名方法冲突风险，尽量不用。
+    子类继承多个父类，语法 02.class 子类(父1，父2):，存在同名方法冲突风险，尽量不用。
 5.关键规则:
     继承顺序:
         单继承 → 子类 → 父类 → 更上层父类;
@@ -24,7 +24,7 @@
 
 
 #
-# class Parent():
+# 02.class Parent():
 #     """父类"""
 #
 #     def __init__(self):
@@ -34,7 +34,7 @@
 #         print("父类方法")
 #
 #
-# class Child(Parent):
+# 02.class Child(Parent):
 #     """子类"""
 #
 #     def __init__(self):
@@ -106,14 +106,14 @@ dog = Dog("旺财", 2, "汪汪汪")
 # dog.eat()      # 测试重写后的 eat 方法
 # dog.sleep()    # 测试继承的 sleep 方法
 # dog.say("汪汪汪")  # 测试 say 方法
-# print(dog.base)    # 测试从 LivingThing 继承的类属性
+# print(dog.01.base)    # 测试从 LivingThing 继承的类属性
 # dog.breath()       # 测试从 LivingThing 继承的方法
 
 
 print("*" * 50)
 
 # # 多继承
-# class Watch():
+# 02.class Watch():
 #     """手表类"""
 #
 #     def watch(self):
@@ -123,7 +123,7 @@ print("*" * 50)
 #         print("相同方法：正在看表")
 #
 #
-# class Phone():
+# 02.class Phone():
 #     """手机类"""
 #
 #     def phone(self):
@@ -132,7 +132,7 @@ print("*" * 50)
 #     def same(self):
 #         print("相同方法：正在打电话")
 #
-# class SmartWatch(Watch, Phone):
+# 02.class SmartWatch(Watch, Phone):
 #     """智能手表类"""
 #
 #     def __init__(self):

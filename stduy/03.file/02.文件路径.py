@@ -23,5 +23,5 @@
 
 """
 
-f = open(r'D:\dev\workspace\python\stduy\file\text.txt', mode='r', encoding="utf-8")
-f = open('D:\\dev\\workspace\\python\\stduy\\file\\text.txt', mode='r', encoding="utf-8")
+f = open(r'D:\dev\workspace\python\stduy\03.file\text.txt', mode='r', encoding="utf-8")
+f = open('D:\\dev\\workspace\\python\\stduy\\03.file\\text.txt', mode='r', encoding="utf-8")

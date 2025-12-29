@@ -220,7 +220,7 @@ print("hello world".islower(), "判断是否只包含小写字母 返回False")
 b = "你好世界".encode()
 # 编码字符串 默认utf-8 返回b'\xe4\xbd\xa0\xe5\xa5\xbd\xe4\xb8\x96\xe7\x95\x8c'
 print(b, "编码字符串转字节 默认utf-8")
-# 返回<class 'bytes'>
+# 返回<02.class 'bytes'>
 print(type(b))
 # 将字节解码为字符串
 txt = b.decode()

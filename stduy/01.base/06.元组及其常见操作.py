@@ -16,7 +16,7 @@
 # 定义一个元组，包含字母a到e
 letter = ('a', 'b', 'c', 'd', 'e')
 # 打印元组的类型，验证其为tuple类型
-print("打印元组的类型，验证其为tuple类型", type(letter))  # <class 'tuple'>
+print("打印元组的类型，验证其为tuple类型", type(letter))  # <02.class 'tuple'>
 # 通过正索引访问元组的第一个元素
 print("通过正索引访问元组的第一个元素", letter[0])  # a
 # 通过负索引访问元组的最后一个元素

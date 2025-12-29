@@ -40,7 +40,7 @@ def getDataList(count, times):
         )
         # 子页面图片匹配
         # imgSrcSearch = re.compile(
-        #     r'<div class="info_pic">.*?<img src="(?P<imgSrc>.*?)"', re.S
+        #     r'<div 02.class="info_pic">.*?<img src="(?P<imgSrc>.*?)"', re.S
         # )
         mainRes = mainMatch.finditer(mainResp.text)
         for item1 in mainRes:
